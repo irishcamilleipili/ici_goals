@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { StyleSheet, Text, TextInput, Pressable,Keyboard } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
-import { useGoals } from '../../.expo/hooks/useGoals'
+import { useGoals } from '../../hooks/useGoals'
 import { useRouter } from 'expo-router'
 
 const Create = () => {
